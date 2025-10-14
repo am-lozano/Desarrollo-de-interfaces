@@ -1,4 +1,4 @@
-import { Text, View, FlatList, StyleSheet } from "react-native"
+import { Text, View, FlatList, StyleSheet, TouchableOpacity, Alert, Platform } from "react-native"
 import RepositoryPerson from "../Model/Data/RepositoryPerson";
 import IndexVM from "../ViewModel/IndexVM";
 
@@ -37,9 +37,22 @@ export default function Index() {
         renderItem = {({ item }) => (
             <View style = {styles.background}>
                 <View style = {styles.container}>
-                    <View style = {styles.item}>
+                    <TouchableOpacity
+                        style = {styles.item}
+                        onPress={() => {
+                            const title = 'Información de la persona';
+                            const message = `Nombre: ${item.getName}\nApellido: ${item.getSurname}\nID: ${item.getId}`;
+                            console.log('item pressed:', item);
+                            if (Platform.OS === 'web') {
+                                // on web, use the browser alert as a reliable fallback
+                                (window as any).alert(`${title}\n\n${message}`);
+                            } else {
+                                Alert.alert(title, message);
+                            }
+                        }}
+                    >
                         <Text style = {styles.text}>{item.getName} {item.getSurname}</Text>
-                    </View>
+                    </TouchableOpacity>
                 </View>
             </View>
         )}
