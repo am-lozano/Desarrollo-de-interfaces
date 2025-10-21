@@ -6,6 +6,8 @@ class IndexVM{
     public getUsers() : Person[]{
         return RepositoryPerson.getPerson();
     }
+
+    
 }
 
 export default IndexVM;

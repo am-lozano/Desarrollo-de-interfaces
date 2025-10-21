@@ -41,7 +41,7 @@ export default function Index() {
                         style = {styles.item}
                         onPress={() => {
                             const title = 'Información de la persona';
-                            const message = `Nombre: ${item.getName}\nApellido: ${item.getSurname}\nID: ${item.getId}`;
+                            const message = `Nombre: ${item.getName}\nApellido: ${item.getSurname}\n`;
                             console.log('item pressed:', item);
                             if (Platform.OS === 'web') {
                                 // on web, use the browser alert as a reliable fallback
