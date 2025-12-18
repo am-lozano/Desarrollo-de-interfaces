@@ -1,0 +1,54 @@
+app/
+    src/
+        Domain/
+            Entities/
+                
+                Pokemon
+                    - string nombre {get ; set}
+                    - string url {get ; set}
+                    + Pokemon(string nombre, string url)
+                    
+
+            UseCases/
+
+                PokemonListUseCase
+                    - IPokemonRepository pokemonRepository
+                    - Promise<Pokemon[]> execute(int limit, int offset)
+                    + PokemonListUseCase(IPokemonRepository pokemonRepository)
+
+            DTOs/
+            Interfaces/
+                IPokemonRepository.ts
+                    - Promise<Pokemon[]> getPokemonList(int limit, int offset)
+
+                IPokeApiService.ts
+                    - Promise<PokemonListResponseDto> fetchPokemonList(int limit, int offset)
+        
+        Data/
+            Repositories/
+                PokemonRepository : IPokemonRepository
+                    - IPokeApiService pokeApiService
+                    - Promise<Pokemon[]> getPokemonList((int limit, int offset))
+                    - Pokemon mapDtoToEntity(dto: PokemonDto)
+                    - PokemonRepository(IPokeApiService pokeApiService)
+
+        Core/
+            container
+            types
+
+        Presentation/
+                Views/
+                    index
+
+                ViewModels/
+                    PokemonViewModel
+                        - getPokemonListUseCase: GetPokemonListUseCase
+                        - pokemonList: Pokemon[] { get }
+                        - currentOffset: int { get; private set } = 0
+                        - limit: int { get; private set } = 20
+                        - isLoading: boolean { get; private set } = false
+                        - Function[] observers = []
+                        - Promise<void> loadNextPage()
+                        - void addObserver(observer: Function)
+                        - void notifyObservers()
+                        - PokemonViewModel(GetPokemonListUseCase getPokemonListUseCase)
