@@ -8,3 +8,5 @@ class Pokemon {
         this._url = url;
     }
 }
+
+export { Pokemon };

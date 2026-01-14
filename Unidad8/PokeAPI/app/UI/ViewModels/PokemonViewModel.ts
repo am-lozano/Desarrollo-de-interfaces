@@ -1,3 +1,6 @@
+import { Pokemon } from '../../Domain/Entities/Pokemon';
+import { GetPokemonListUseCase } from '../../Domain/UseCases/GetPokemonListUseCase';
+
 class PokemonViewModel {
     private _pokemonList: Pokemon[] = [];
     private _currentOffset: number = 0;

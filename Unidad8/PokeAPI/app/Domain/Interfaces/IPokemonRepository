@@ -1,3 +1,7 @@
+import { Pokemon } from '../Entities/Pokemon';
+
 interface IPokemonRepository {
     getPokemonList(limit: number, offset: number): Promise<Pokemon[]>;
 }
+
+export { IPokemonRepository };

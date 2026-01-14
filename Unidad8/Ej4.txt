@@ -1,0 +1,44 @@
+Core/
+    types.ts
+    container.ts
+
+Domain/
+    Entities/
+        Persona.ts
+        
+        Departamento.ts
+
+    DTOs/ (si ponemos el departamento si)
+        PersonaDTO
+
+    UseCase/
+        GetPersonasUseCase
+        AddPersonaUseCase
+        UpdatePersonaUseCase
+        DeletePersonaUseCase
+        GetDepartamentoUseCase
+        AddDepartamentoUseCase
+        UpdateDepartamentoUseCase
+        DeleteDepartamentoUseCase
+
+    Interfaces/
+        Repositories/
+            PersonaRepository
+            DepartamentoRepository
+        
+        UseCase/
+            GetPersonasUseCase
+            AddPersonaUseCase
+            UpdatePersonaUseCase
+            DeletePersonaUseCase
+            GetDepartamentoUseCase
+            AddDepartamentoUseCase
+            UpdateDepartamentoUseCase
+            DeleteDepartamentoUseCase
+
+Data/
+    Repositories/
+
+UI/
+	View/
+    ViewModel/
