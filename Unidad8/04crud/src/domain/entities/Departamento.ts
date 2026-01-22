@@ -1,4 +1,5 @@
-class Departamento {
+export class Departamento {
+    
     private id: number;
     private nombre: string;
 
@@ -21,5 +22,3 @@ class Departamento {
         }
     }
 }
-
-export { Departamento };
