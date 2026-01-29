@@ -1,0 +1,67 @@
+SignalR (C#, servidor)
+
+src/
+    entities/
+        Player.cs
+            - ficha : char { get; set; }
+            - isTurno : boolean { get; set; }
+            + Player(String ficha, boolean isTurno)
+
+        Movimiento.cs
+            - ficha : char { get; set; }
+            - posX : int { get; set; }
+            - posY : int { get; set; }
+            + Movimiento(char ficha, int posX, int posY)
+
+    hubs/
+        Game.cs
+            + async jugar()
+            + async colocarFicha()
+
+    application/
+        static GameState.cs
+            - static numJugadores : int
+
+
+
+React (Ts, cliente)
+
+src/
+    app/
+        _layout.tsx
+        index.tsx
+
+    UI/
+        views/
+            EsperaScreen.tsx
+            GameScreen.tsx
+            TerminadoScreen.tsx
+
+        viewmodels/
+            GameViewModel.ts  
+
+    core/
+        container.ts
+        types.ts
+
+    data/
+        SignalRConnection.ts
+
+    domain/
+        entities/
+            Player.cs
+            - ficha : char { get; set; }
+            - isTurno : boolean { get; set; }
+            + Player(String ficha, boolean isTurno)
+
+        Movimiento.cs
+            - ficha : char { get; set; }
+            - posX : int { get; set; }
+            - posY : int { get; set; }
+            + Movimiento(char ficha, int posX, int posY)
+
+        interfaces/
+            IGameUseCases.ts
+
+        usecases/
+            GameUseCases.ts : IGameUseCases
