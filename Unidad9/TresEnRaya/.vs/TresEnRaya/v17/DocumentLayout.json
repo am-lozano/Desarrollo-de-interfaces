@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\pages\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\entities\\resultadomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\entities\\resultadomovimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\application\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\application\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\application\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\application\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|c:\\users\\am.lozano\\documents\\github\\desarrollo-de-interfaces\\unidad9\\tresenraya\\tresenraya\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E79D34A-2AC2-4A3D-87A5-9AA1A13A83B9}|TresEnRaya\\TresEnRaya.csproj|solutionrelative:tresenraya\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "TresEnRaya\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "TresEnRaya\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:21:35.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultadoMovimiento.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Entities\\ResultadoMovimiento.cs",
+              "RelativeDocumentMoniker": "TresEnRaya\\Entities\\ResultadoMovimiento.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Entities\\ResultadoMovimiento.cs",
+              "RelativeToolTip": "TresEnRaya\\Entities\\ResultadoMovimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:21:32.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Application\\GameState.cs",
+              "RelativeDocumentMoniker": "TresEnRaya\\Application\\GameState.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Application\\GameState.cs",
+              "RelativeToolTip": "TresEnRaya\\Application\\GameState.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:20:35.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Application\\GameService.cs",
+              "RelativeDocumentMoniker": "TresEnRaya\\Application\\GameService.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Application\\GameService.cs",
+              "RelativeToolTip": "TresEnRaya\\Application\\GameService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T12:20:16.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Pages\\Index.html",
+              "RelativeDocumentMoniker": "TresEnRaya\\Pages\\Index.html",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Pages\\Index.html",
+              "RelativeToolTip": "TresEnRaya\\Pages\\Index.html",
+              "ViewState": "AgIAANEBAAAAAAAAAAAAAFcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-10T11:50:08.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Program.cs",
+              "RelativeDocumentMoniker": "TresEnRaya\\Program.cs",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\Program.cs",
+              "RelativeToolTip": "TresEnRaya\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T11:46:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\libman.json",
+              "RelativeDocumentMoniker": "TresEnRaya\\libman.json",
+              "ToolTip": "C:\\Users\\am.lozano\\Documents\\GitHub\\Desarrollo-de-interfaces\\Unidad9\\TresEnRaya\\TresEnRaya\\libman.json",
+              "RelativeToolTip": "TresEnRaya\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-10T11:45:44.665Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

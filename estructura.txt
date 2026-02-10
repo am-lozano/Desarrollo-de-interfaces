@@ -11,12 +11,14 @@ src/
             - ficha : char { get; set; }
             - posX : int { get; set; }
             - posY : int { get; set; }
+            - win : boolean { get; set; }
             + Movimiento(char ficha, int posX, int posY)
 
     hubs/
         Game.cs
             + async jugar()
-            + async colocarFicha()
+            + async colocarFicha(char ficha, int posX, int posY)
+            + async salir()
 
     application/
         static GameState.cs
@@ -58,6 +60,7 @@ src/
             - ficha : char { get; set; }
             - posX : int { get; set; }
             - posY : int { get; set; }
+            - win : boolean { get; set; }
             + Movimiento(char ficha, int posX, int posY)
 
         interfaces/
